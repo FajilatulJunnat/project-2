@@ -1,0 +1,136 @@
+body{
+    background-color: #E5E5E5;
+}
+.head{
+    height: 94px;
+    width: 1440px;
+    background-color: #562EFF;
+    padding: 0 285px;
+   
+}
+.logo-title{
+    display: flex;
+}
+#lo-title{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.logo{
+    height: 51px;
+    width: 40.42px;
+    margin-right: 15.18px;
+    margin-top: 26px;
+}
+.mid-sector{
+    height: 679px;
+    width: 870px;
+    margin:36px 285px;
+    margin-bottom: 21px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 33px;
+    
+}
+.heading{
+    color: #562EFF;
+    font-size: 24px;
+    font-family: medium;
+}
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    row-gap: 29px;
+    margin-bottom: 30px;
+}
+.players img{
+    height: 56px;
+    width: 56px;
+}
+.players{
+    display: flex;
+    align-items: center;
+}
+.player-name{
+    margin-left: 20px;
+}
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 26px;
+}
+.blogs{
+    display: flex;
+    align-items: start;
+}
+.blogs img{
+    width: 177px;
+    height: 117px;
+    border-radius: 10px;
+}
+.blog-descrip{
+    margin-left: 16px;
+
+}
+.blog-descrip a{
+    text-decoration: none;
+    color: #562EFF;
+}
+.footer{
+    height: 362px;
+    width: 870px;
+    margin: 0 285px;
+    margin-bottom: 28px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding:5px 33px;
+    padding-bottom: 40px;
+}
+.foo-card{
+    display: flex;
+    justify-content: space-between;
+}
+.foo-div{
+    height: 269.79px;
+    width: 252.42px;
+    box-shadow:#ecb4bc;
+   border-radius: 10px;
+    margin-bottom: 22.21px;
+    padding:10px 11px;
+   
+}
+.foo-div img{
+    width: 224px;
+    height: 104px;
+  
+}
+.red{
+    color: #ED6B4F;
+}
+.star-clock{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.star img{
+    width: 12.39px;
+    height: 11.81px;
+    margin: 3.14px;
+}
+.clock{
+    width: 100px;
+    height: 29.38px;
+    border-radius: 14.69px;
+    background-color: #FFE4E8;
+    display: flex;
+    align-items: center;
+}
+.clock img{
+    width: 20.03px;
+    height: 20.03px;
+}
+.time{
+    color: #FF4A60;
+    font-size: 14.69px;
+    margin-right: 3px;
+}
