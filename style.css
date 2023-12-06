@@ -1,12 +1,19 @@
 body{
     background-color: #E5E5E5;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
 }
 .head{
     height: 94px;
     width: 1440px;
     background-color: #562EFF;
-    padding: 0 285px;
    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+    align-items: center;
 }
 .logo-title{
     display: flex;
@@ -21,10 +28,28 @@ body{
     margin-right: 15.18px;
     margin-top: 26px;
 }
+.list{
+    display: inline;
+    float: left;
+}
+.list a{
+    text-decoration:none ;
+    display: block;
+    padding-right: 36px;
+    color: #FFFFFF;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.profile img{
+    height: 51px;
+    width: 51px;
+}
 .mid-sector{
     height: 679px;
     width: 870px;
-    margin:36px 285px;
+    margin:36px 250px;
     margin-bottom: 21px;
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -79,12 +104,13 @@ body{
 .footer{
     height: 362px;
     width: 870px;
-    margin: 0 285px;
+    margin: 0 250px;
     margin-bottom: 28px;
     background-color: #FFFFFF;
     border-radius: 5px;
     padding:5px 33px;
     padding-bottom: 40px;
+
 }
 .foo-card{
     display: flex;
@@ -93,7 +119,7 @@ body{
 .foo-div{
     height: 269.79px;
     width: 252.42px;
-    box-shadow:#ecb4bc;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
    border-radius: 10px;
     margin-bottom: 22.21px;
     padding:10px 11px;
@@ -118,7 +144,7 @@ body{
     margin: 3.14px;
 }
 .clock{
-    width: 100px;
+    width: 90px;
     height: 29.38px;
     border-radius: 14.69px;
     background-color: #FFE4E8;
@@ -132,5 +158,5 @@ body{
 .time{
     color: #FF4A60;
     font-size: 14.69px;
-    margin-right: 3px;
+    margin:0 4px;
 }
